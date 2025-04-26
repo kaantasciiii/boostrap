@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Smith | Web Developer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#">John Smith</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 font-weight-bold">Hi, I'm John Smith</h1>
+                    <h2 class="text-muted mb-4">Web Developer & UI/UX Designer</h2>
+                    <p class="lead">Creating beautiful, functional, and user-focused digital experiences for businesses around the world.</p>
+                    <div class="mt-5">
+                        <a href="#projects" class="btn btn-primary mr-3">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-dark">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" class="img-fluid rounded-circle hero-img" alt="John Smith">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-lg-2">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm a passionate web developer and designer with over 5 years of experience creating modern and responsive websites and applications.</p>
+                    <p>My journey in web development started when I was in college, and since then, I've worked with various clients ranging from startups to established businesses, helping them achieve their digital goals.</p>
+                    <p>I love combining the art of design with the skill of programming to create visually appealing and user-friendly websites. My focus is always on writing clean, efficient, and maintainable code.</p>
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-outline-primary">Download Resume</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="about-img-container">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="img-fluid rounded shadow-lg" alt="Workspace">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">My Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="skill-item p-4 bg-white rounded shadow">
+                        <div class="skill-icon mb-3">
+                            <i class="fas fa-code fa-3x text-primary"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>HTML5, CSS3, JavaScript, React, Vue.js, Node.js, Express</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-item p-4 bg-white rounded shadow">
+                        <div class="skill-icon mb-3">
+                            <i class="fas fa-paint-brush fa-3x text-primary"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Figma, Adobe XD, Sketch, Responsive Design, Wireframing</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-item p-4 bg-white rounded shadow">
+                        <div class="skill-icon mb-3">
+                            <i class="fas fa-database fa-3x text-primary"></i>
+                        </div>
+                        <h3>Backend & Database</h3>
+                        <p>MongoDB, MySQL, Firebase, REST APIs, GraphQL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Recent Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" class="card-img-top" alt="E-commerce Project">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Platform</h5>
+                            <p class="card-text">A fully responsive e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product search, shopping cart, and payment processing.</p>
+                            <div class="technologies mt-3">
+                                <span class="badge badge-primary">React</span>
+                                <span class="badge badge-secondary">Node.js</span>
+                                <span class="badge badge-success">MongoDB</span>
+                                <span class="badge badge-info">Stripe API</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                            <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3" class="card-img-top" alt="Fitness App">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness Tracking App</h5>
+                            <p class="card-text">A mobile-first web application for tracking workouts and nutrition. Users can create custom workout plans, log meals, and view progress over time with interactive charts.</p>
+                            <div class="technologies mt-3">
+                                <span class="badge badge-primary">Vue.js</span>
+                                <span class="badge badge-secondary">Firebase</span>
+                                <span class="badge badge-success">Chart.js</span>
+                                <span class="badge badge-info">PWA</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="#" class="btn btn-outline-primary btn-sm">View Project</a>
+                            <a href="#" class="btn btn-outline-dark btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Client Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card testimonial-card">
+                        <div class="card-body">
+                            <p class="testimonial-text">"John created an amazing website for our business. His attention to detail and creative solutions helped us increase our online presence significantly."</p>
+                            <div class="testimonial-author d-flex align-items-center mt-4">
+                                <img src="https://randomuser.me/api/portraits/women/45.jpg" class="rounded-circle mr-3" alt="Client">
+                                <div>
+                                    <h5 class="mb-0">Sarah Johnson</h5>
+                                    <p class="text-muted mb-0">CEO, Johnson Enterprises</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card testimonial-card">
+                        <div class="card-body">
+                            <p class="testimonial-text">"Working with John was a pleasure. He understood our requirements perfectly and delivered a product that exceeded our expectations. Highly recommended!"</p>
+                            <div class="testimonial-author d-flex align-items-center mt-4">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mr-3" alt="Client">
+                                <div>
+                                    <h5 class="mb-0">Michael Brown</h5>
+                                    <p class="text-muted mb-0">Marketing Director, TechStart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card testimonial-card">
+                        <div class="card-body">
+                            <p class="testimonial-text">"John helped us transform our outdated website into a modern, user-friendly platform. His technical skills and design sense are exceptional."</p>
+                            <div class="testimonial-author d-flex align-items-center mt-4">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle mr-3" alt="Client">
+                                <div>
+                                    <h5 class="mb-0">Emily Davis</h5>
+                                    <p class="text-muted mb-0">Owner, Bloom Boutique</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="mb-4">Have a project in mind or want to discuss a potential collaboration? Feel free to reach out to me using the contact form or through my social media channels.</p>
+                    <div class="contact-info mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-envelope text-primary mr-3"></i>
+                            <span>john.smith@example.com</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-phone text-primary mr-3"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt text-primary mr-3"></i>
+                            <span>San Francisco, CA</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form class="contact-form p-4 bg-white rounded shadow-lg">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 John Smith. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
